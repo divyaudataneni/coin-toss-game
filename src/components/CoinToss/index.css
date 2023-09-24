@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-cont {
+  background-color: white;
+  min-height: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  height: 100px;
+}
+.button {
+  background-color: #e2a139;
+  color: #a35200;
+  border: none;
+  border-radius: 7px;
+  padding: 8px;
+  width: 100px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.heading {
+  color: #a35200;
+}
+.result {
+  display: flex;
+  flex-direction: row;
+}
+.para {
+  padding: 10px;
+  color: #475569;
+  font-weight: bold;
+}
